@@ -1,0 +1,29 @@
+###
+POST http://localhost:3001/api/submitStudentData
+Content-Type: application/json
+
+
+{ 
+  "name": "John Doe",
+  "mathScore": 90,
+  "scienceScore": 80,
+  "historyScore": 85,
+} 
+
+###
+
+
+
+
+POST http://localhost:3001/api/submitBookData
+Content-Type: application/json
+
+{
+  "name": "Mathematics for Computer Science",
+  "type": "Math",
+  "author": "Eric Lehman, F. Thomson Leighton, and Albert R. Meyer",
+  "typeScore": 5,
+  "nameScore": 5,
+  "authorScore": 5
+}
+###
